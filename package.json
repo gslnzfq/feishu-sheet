@@ -1,11 +1,11 @@
 {
-  "name": "feishu-sheet",
-  "version": "1.0.0",
-  "description": "A feishu sheet API implement by Node.js",
+  "name": "feishu-sheet-api",
+  "version": "1.0.1",
+  "description": "一个基于nodejs实现的飞书表格读取工具",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node example/index.js"
   },
   "keywords": [
     "feishu",

@@ -1,5 +1,6 @@
 import axios from "axios";
 import { getColumns } from "./utils";
+import { IOptions, ISheetRawData } from "../types";
 
 const defaultOptions: Required<IOptions> = {
   sheetId: "",
